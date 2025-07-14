@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { currentView, activarModoEmergencia } from "../stores/events";
+  import { currentView, activarModoEmergencia } from "../../stores/events";
 
   function toggleView() {
     currentView.update((v) => (v === "month" ? "week" : "month"));

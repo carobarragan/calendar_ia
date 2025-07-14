@@ -4,7 +4,11 @@
   import dayGridPlugin from "@fullcalendar/daygrid";
   import timeGridPlugin from "@fullcalendar/timegrid";
   import interactionPlugin from "@fullcalendar/interaction";
-  import { currentView, events, activarModoEmergencia } from "../stores/events";
+  import {
+    currentView,
+    events,
+    activarModoEmergencia,
+  } from "../../stores/events";
 
   // Referencia al elemento DOM donde se montará el calendario
   let calendarEl;
