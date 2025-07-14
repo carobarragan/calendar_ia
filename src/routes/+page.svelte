@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Calendar from "../lib/calendar.svelte";
-  import Toolbar from "$lib/Toolbar.svelte";
+  import Calendar from "../lib/componentes/calendar.svelte";
+  import Toolbar from "$lib/componentes/Toolbar.svelte";
 </script>
 
 <main
